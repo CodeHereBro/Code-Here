@@ -29,7 +29,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .navbar li a:hover{
     text-decoration: none;
@@ -76,7 +76,7 @@ p{
 
 .col-2 h1{
     font-size: 50px;
-    line-height: 60px;
+    /* line-height: 60px; */
     margin: 25px 0;
 }
 
@@ -282,7 +282,7 @@ small{
 @media only screen and (max-width: 680px){
     nav ul{
         position:absolute;
-        top: 87px;
+        top: 65px;
         left: 0;
         background: #555;
         width:100%;
@@ -298,6 +298,9 @@ small{
     nav ul a{
         color :white;
     }
+    .navbar{
+        padding: 4px 6px;
+    }
     .menu-burger{
         display: block;
         cursor: pointer;
@@ -311,6 +314,6 @@ small{
         margin: 0;
     }
     .col-2 h1{
-        font-size: 35px;
+        font-size: 20px;
     }
 }
